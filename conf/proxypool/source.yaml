@@ -55,6 +55,18 @@
 - type: subscribe
   options:
     url: https://v2ray.banyunxiaoxi.ml/
+ 
+- type: subscribe
+  options:
+    url: https://wds.ecsxs.com/220421.json
+    
+ - type: subscribe
+  options:
+    url: https://raw.githubusercontent.com/emuiavip/ssr/main/try   
+    
+ - type: subscribe
+  options:
+    url: https://pastebin.com/raw/rsyaYwSb  
 
 # 网页模糊抓取
 - type: webfuzz
@@ -64,8 +76,38 @@
 # tg频道抓取
 - type: tgchannel
   options:
-    channel: 
+    channel: WangCai_1 
     num: 200
+    
+- type: tgchannel
+  options:
+    channel: yunbaitech
+    num: 200
+    
+- type: tgchannel
+  options:
+    channel: bpzjj
+    num: 200
+    
+- type: tgchannel
+  options:
+    channel: mfjdpd
+    num: 200
+    
+- type: tgchannel
+  options:
+    channel: ShareCentrePro
+    num: 200
+    
+- type: tgchannel
+  options:
+    channel: mftizi
+    num: 200
+    
+- type: tgchannel
+  options:
+    channel: V2List
+    num: 200    
 
 # 翻墙党论坛抓取
 - type: web-fanqiangdang
@@ -80,6 +122,14 @@
 - type: clash
   options:
     url: https://raw.githubusercontent.com/MambaOutZY/FreeVmessSUB/main/trojan.txt
+
+- type: clash
+  options:
+    url: https://raw.githubusercontent.com/FMYC2015/Clash/main/2022/2022-02-21
+    
+ - type: clash
+  options:
+    url: https://raw.githubusercontent.com/emuiavip/ssr/main/clash
 
 # 某个网站抓取
 - type: web-freessrxyz
